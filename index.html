@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+
+<body>
+    <p>
+        Name: Muhammad Affan <br>
+        roll no: 345632 <br>
+        Batch: 15
+    </p>
+    <hr>
+    <h1><strong>Application Form</strong></h1>
+    <form action="">
+        <p>First Name: <input type="text" name="" id=""> Last Name: <input type="text"></p>
+        <p>
+            <label for="date">Date of Birth: <input type="date" name="date" id="date"></label>
+            <label for="age">Age : <input type="number" name="age" id="age" min="1" max="100"></label>
+        </p>
+        <p>
+            <label for="gender">Gender: <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select></label>
+            <label for="email">Email Address: <input type="email" placeholder="enter email address"></label>
+        </p>
+        <p>
+            <label for="radio"> Positions Available:</label>
+            <label for="radio1"> 
+                <input type="radio" name="radio1" id="radio1"> Junior Developer </label>
+            <label for="radio2"> 
+                <input type="radio" name="radio2" id="radio2"> Mid-Level Developer 
+            </label>
+            <label for="radio3">
+                <input type="radio" name="radio3" id="radio3">  Senior Developer
+            </label>
+        </p>
+        <p>
+            Programming Languages:
+            <label for="java">
+                <input type="checkbox" name="java" id="java"> Java
+            </label>
+            <label for="js">
+                <input type="checkbox" name="js" id="js"> JavaScript
+            </label>
+            <label for="Pyt">
+                <input type="checkbox" name="Pyt" id="pyt"> Pyhton
+            </label>
+        </p>
+        <p>
+            <label for="pass">
+                Password: <input type="password" name="pass" id="pass">
+            </label>
+            <label for="cp">
+               Confirm Password: <input type="password" name="cp" id="cp">
+            </label>
+        </p>
+        <Button>save</Button>
+        <button>Reset</button>
+    </form>
+</body>
+
+</html>
